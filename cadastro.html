@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link href="css/estilo.css" rel="stylesheet">
+<title>Cadastro</title>
+<h1><center>Cadastro</h1></center><br>
+<style>
+	.branco{ background-color: white;}
+	.laranja{ background-color: orange;}
+	.amarelo{ background-color: yellow;}
+
+</style>
+</head>
+
+<body bgcolor="33CCFF"></body><body>
+	<form action="http://ihome.ust.hk/~rossiter/cgi-bin/show_everything.php" method="get">
+	<b>Digite aqui o seu nome: </b><input type="text" name="nome" placeholder="" required><br><br><br>
+	<b>Digite aqui o seu RG:</b><input type="number" name="numero" placeholder="" required><br><br><br>
+	<b>Digite aqui o seu CPF:</b><input type="number" name="numero" placeholder="" required><br><br><br>
+	<b>Digite aqui o seu RG:</b><input type="number" name="numero" placeholder="" required><br><br><br>
+	<b>Insira um novo ID:</b><input type="text" name="id" placeholder="" required><br><br><br>
+	<b>Digite aqui o seu Email:</b><input type="text" name="email" placeholder="" required><br><br><br>
+	<b>Digite a sua nova senha:</b><input type="password" name="senha" placeholder="" required><br><br><br>
+	
+
+	<b>Selecione as opções que você mais gosta: </b> <br>
+	<input type="checkbox" name="item" value="jogarvideogame">Jogar Videogame<br>
+	<input type="checkbox" name="item" value="assistirtv">Assistir Televisão<br>
+	<input type="checkbox" name="item" value="dançar">Dançar<br>
+	<input type="checkbox" name="item" value="cantar">Cantar<br><br>
+
+	<b>Selecione a sua comida favorita: </b> <br> 
+	<input type="radio" name="op" value="Pizza">Pizza<br>
+	<input type="radio" name="op" value="Lasanha">Lasanha<br>
+	<input type="radio" name="op" value="Peixe">Peixe<br>
+	<input type="radio" name="op" value="Frango">Frango<br><br>
+	
+	<b>Selecione a sua cidade: </b> <br>
+	<select name="cidades">
+	<option value="hto">Hortolândia</option>
+	<option value="sum">Sumaré</option>
+	<option value="cps">Campinas</option>
+	<option value="cpi">Capivari</option>
+	<option value="pir">Piracicaba</option>
+
+	<input type="date" name="data"><br><br>
+	<input type="time" name="hora"><br><br>
+	<input type="color" name="cor"><br><br>
+	<input type="range"><br><br>
+
+	<div>
+	<fieldset>
+    <legend>Outros:</legend>
+    <div class="branco">Nome do Pai: <input type="text"><br></div>
+    <div class="laranja">Nome da Mãe: <input type="text"><br></div>
+     </fieldset>
+</div>
+
+	<p><b> Digite o que achou do site formulário abaixo: </p></b>
+	<textarea rows="3" cols="60" name="feedback"></textarea>
+
+
+	</select><br><br>
+
+	<br><br>
+
+<input type="submit">
+</form>
+
+
+
+</body>
